@@ -1,10 +1,10 @@
 // Code By DevSiNo :)
 
 <?php
-$API_KEY ="Token"; // put token
-define("API_KEY","$API_KEY");
+$API_KEY ="1991353536:AAHZ-YIQfg5g87O9jC4XfrgUag68zDKwclw"; // put token
+define("1991353536:AAHZ-YIQfg5g87O9jC4XfrgUag68zDKwclw","$1991353536:AAHZ-YIQfg5g87O9jC4XfrgUag68zDKwclw");
 function bot($method,$datas=[]){
-    $url = "https://api.telegram.org/bot".API_KEY."/".$method;
+    $url = "https://api.telegram.org/bot".1991353536:AAHZ-YIQfg5g87O9jC4XfrgUag68zDKwclw."/".$method;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
