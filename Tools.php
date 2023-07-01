@@ -1,7 +1,7 @@
 // Code By DevSiNo :)
 
 <?php
-$API_KEY ="Token"; // put token
+$API_KEY ="1991353536:AAHZ-YIQfg5g87O9jC4XfrgUag68zDKwclw"; // put token
 define("API_KEY","$API_KEY");
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
